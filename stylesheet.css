@@ -1,1 +1,10 @@
-Css styling page
+/* King Charles Spaniel Styling Page*/ 
+
+
+#Container 
+{padding: 20px; margin: 5px;color: rgb(13, 89, 228); font-size: 30px; font-weight: 300px; max-width: 1200px; 
+background-color: aqua;display: flex;flex-direction: row; flex: 1; gap: 3px;flex-wrap: wrap;align-items: center;justify-content: space-between;}
+
+li {list-style-type: none;}
+
+.logo {max-width: 300px;max-height: 200px;background-color: antiquewhite;}
