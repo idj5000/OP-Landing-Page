@@ -32,7 +32,6 @@ body {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucid
 .nav-list{
     background-image:url(Images/paws.jpg); background-repeat: no-repeat;background-size: 100%; max-width:auto; max-height: min-content;background-position:10%;
     height: fit-content;
-    padding: 0px;
     box-shadow: 0px;
     display: flex;
     justify-content: flex-end;
@@ -65,6 +64,15 @@ header {display:flex; justify-content:center; font-size: larger;font-family:mich
     font-family:Arial, Helvetica, sans-serif; 
 }
 .donate-btn:hover{color:black;background-color:greenyellow;}
+
+
+/* Main Section*/
+
+h2{display: flex;justify-content: center;}
+.Introduction{display: flex;justify-content:space-evenly;align-items: center;width:100%;margin-top: 100px;}
+
+
+.box {border:solid 5px rgb(35, 166, 195);width: 240px;height:220px;display:flex;justify-content: center;align-items: center;object-fit: contain;}
 
 
 
