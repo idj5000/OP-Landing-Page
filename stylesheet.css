@@ -27,48 +27,58 @@ header {display: flex;flex-direction:row;justify-content: flex-start;}
 
 * {box-sizing: border-box;}
 
-body {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;background-color: aliceblue;}
+body {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;background-color: aliceblue; margin: 0;padding: 0;}
 
 .nav-list{
     background-image:url(Images/paws.jpg); background-repeat: no-repeat;background-size: 100%; max-width:auto; max-height: min-content;background-position:10%;
     height: fit-content;
     box-shadow: 0px;
-    display: flex;
-    justify-content: flex-end;
+    display:flex;
+    justify-content:flex-end;
     align-items: center;
     max-height: 180px;
     overflow: hidden;
 }
 
-
 .nav-item{
     list-style-type:none;
+    padding: 0;
     margin-right: 1em;
+    overflow: hidden;
+    position: relative;
 }
 
 header {display:flex; justify-content:center; font-size: larger;font-family:michroma;}
 
 .nav-item:nth-child(4){order: -1;margin-right: auto;margin-left: 6.5rem; align-self:center;}
 
-.nav-item:nth-child(5){order: -2;margin-right: auto;margin-left: 1rem; align-content: flex-end;}
+.nav-item:nth-child(5){order: -2;margin-right: auto;margin-left: 1rem; align-self: flex-end;}
 
-.king{height: 180px;width: 190px;}
+.king{height: 180px;width: 190px; position:absolute}
 
 .logo{height: 200px;width: 200px;}
 
 .donate-btn{
     cursor: pointer;
+    position: relative;
+    border: 2px black solid;
+    border-radius:25%;
+    background-color: yellow;
     padding: 10px;
-    border-radius: 25%;
-    background-color:yellow;
-    font-family:Arial, Helvetica, sans-serif; 
+    font-family:Arial, Helvetica, sans-serif;
 }
-.donate-btn:hover{color:black;background-color:greenyellow;}
+nav .donate-btn:hover{color:black;background-color:greenyellow;font-family: Verdana;}
 
 
 /* Main Section*/
 
-h2{display: flex;justify-content: center;}
+main {background-color: bisque;display:inline; position: relative;height: 300px;width: auto; bottom: 30px;}
+
+h2{display: flex;justify-content: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 35px;}
+
 .Introduction{display: flex;justify-content:space-evenly;align-items: center;margin-top: 100px;}
 
-.box img {border:solid 5px rgb(35, 166, 195);max-width:240px;max-height:auto;display:flex;justify-content:center;align-items:center;object-fit:cover;width: 240px;height:220px;}
+.box img {border:solid 5px rgb(35, 166, 195);max-width:240px;max-height:auto;display:flex;justify-content:center;align-items:center;object-fit:cover;width:auto;height:220px;}
+
+.fact {display:flex;flex-wrap:wrap;justify-content:center;align-items:center;border:solid 5px lightblue; border-radius: 30px;background-color: cornsilk; margin-top:90px; font-size: 35px; padding-left: 40px;height: fit-content;width: 100%;}
+
